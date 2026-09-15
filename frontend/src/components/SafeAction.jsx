@@ -1,3 +1,3 @@
 export default function SafeAction() {
-  return <aside className="trust-note"><span className="note-mark">i</span><div><strong>Built for safer decisions</strong><p>Your message is analyzed locally by transparent rules. Links are never opened or fetched.</p></div></aside>
+  return <aside className="safety-protocol"><div className="protocol-heading"><span className="protocol-mark">+</span><div><p className="eyebrow">Safety protocol</p><h3>Before acting</h3></div></div><ol><li><span>01</span>Don't click the link</li><li><span>02</span>Don't share OTP / PIN</li><li><span>03</span>Verify through official channels</li></ol></aside>
 }

@@ -7,5 +7,5 @@ const demos = [
 ]
 
 export default function DemoMessages({ onSelect }) {
-  return <section className="demo-section"><div className="section-title"><div><p className="eyebrow">Try a synthetic example</p><h3>Demo messages</h3></div><span>5 examples</span></div><div className="demo-grid">{demos.map((demo) => <button className="demo-card" key={demo.label} onClick={() => onSelect(demo.message)}><span className={`demo-dot ${demo.tone}`} /><span>{demo.label}</span><span className="demo-arrow">-&gt;</span></button>)}</div></section>
+  return <section className="quick-tests"><div className="section-title"><div><p className="eyebrow">Quick tests</p><h3>Try a synthetic example</h3></div><span>05</span></div><div className="demo-grid">{demos.map((demo) => <button className="demo-card" key={demo.label} onClick={() => onSelect(demo.message)}><span className={`demo-dot ${demo.tone}`} /><span className="demo-label">{demo.label}</span><span className="demo-description">{demo.tone === 'green' ? 'Safe everyday message' : 'Synthetic scenario'}</span><span className="demo-arrow" aria-hidden="true">-&gt;</span></button>)}</div></section>
 }
