@@ -1,0 +1,26 @@
+id,message,label,scam_type
+1,"URGENT: Your bank account is suspended. Update KYC immediately at http://secure.example.xyz",scam,Banking / KYC Phishing
+2,"Complete KYC verification now or your Aadhaar account will be blocked.",scam,Banking / KYC Phishing
+3,"Your PAN verification has expired. Click this link to keep banking active.",scam,Banking / KYC Phishing
+4,"Scan this UPI QR code and send payment immediately to receive your refund.",scam,UPI / Payment Scam
+5,"A collect request is waiting in your UPI app. Approve it now to avoid a penalty.",scam,UPI / Payment Scam
+6,"Work from home job offer. Pay a registration fee today to start your salary.",scam,Job Scam
+7,"Congratulations on your selection. Send a joining fee before your interview slot expires.",scam,Job Scam
+8,"Your courier is held in customs. Pay the delivery charge immediately.",scam,Courier / Delivery Scam
+9,"Your parcel could not be delivered. Confirm payment through this shortened link.",scam,Courier / Delivery Scam
+10,"Congratulations, you are a lottery winner. Pay a claim fee to receive the prize.",scam,Lottery / Prize Scam
+11,"You won a lucky draw reward. Share your bank details to process the cash prize.",scam,Lottery / Prize Scam
+12,"Police case is pending. Transfer the penalty immediately to avoid arrest.",scam,Government / Police Impersonation
+13,"Income tax department notice: verify your account or face legal action.",scam,Government / Police Impersonation
+14,"Share your password and OTP to keep your account active.",scam,Account / Credential Phishing
+15,"Security team: enter your CVV and PIN at this link to unlock your card.",scam,Account / Credential Phishing
+16,"Invest now for guaranteed returns and double your money. Send payment today.",scam,Investment Scam
+17,"Exclusive crypto profit opportunity. Deposit funds immediately for a fixed return.",scam,Investment Scam
+18,"Your computer has a virus. Call technical support and install remote access.",scam,Tech Support Scam
+19,"Customer care has detected malware. Share remote access to fix your device.",scam,Tech Support Scam
+20,"Your OTP for login is 123456. Do not share this OTP with anyone.",safe,Safe / No Strong Scam Indicators
+21,"I paid ₹500 using UPI to the grocery store.",safe,Safe / No Strong Scam Indicators
+22,"Your bank payment of ₹500 was completed successfully.",safe,Safe / No Strong Scam Indicators
+23,"Your delivery is arriving tomorrow between 10 AM and 12 PM.",safe,Safe / No Strong Scam Indicators
+24,"Are we still meeting for tea tomorrow afternoon?",safe,Safe / No Strong Scam Indicators
+25,"Please review the payment receipt in the official office portal when convenient.",borderline,Safe / No Strong Scam Indicators
